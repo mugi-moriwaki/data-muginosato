@@ -5,9 +5,9 @@
   'use strict';
 
   // 受付のページ（Apps Script のウェブアプリ・…/exec）。
-  //   APP      … 本番（?t=…・mugi-files の gas/uketori）。デプロイのアドレスが決まるまでは空＝「準備中」。
+  //   APP      … 本番（?t=…・mugi-files の gas/uketori・data@ の「data 受付」）。空にすると「準備中」。
   //   TEST_APP … 第2回の試しのデプロイ（?k=…）。試しを片付けたら空にする。
-  var APP = '';
+  var APP = 'https://script.google.com/macros/s/AKfycbz3-o8XatPuxlNMNe8cCypG9ebezarYY-DE5JF8tdmpVdvFyn7erAltWgHB8bVyWqkXkQ/exec';
   var TEST_APP = 'https://script.google.com/macros/s/AKfycby6MBrHsJO_e-6xjauMBJyJmtRxQFL4A81UYycLvRuFe-dBlCcOhjQR0PZUSkpUj2V_/exec';
   var OK_APP = /^https:\/\/script\.google\.com\/macros\/s\/[A-Za-z0-9_-]+\/exec$/;
 
