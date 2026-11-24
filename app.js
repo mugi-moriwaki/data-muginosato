@@ -5,7 +5,7 @@
   'use strict';
 
   // 受付のページ（Apps Script のウェブアプリ・…/exec）。第2回の試しの間は試しのデプロイ。
-  var APP = '';
+  var APP = 'https://script.google.com/macros/s/AKfycby6MBrHsJO_e-6xjauMBJyJmtRxQFL4A81UYycLvRuFe-dBlCcOhjQR0PZUSkpUj2V_/exec';
 
   var main = document.getElementById('main');
   var msg = document.getElementById('msg');
